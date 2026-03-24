@@ -1,0 +1,30 @@
+<div class="education">
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless" style="table-layout: fixed;">
+      {% for entry in site.data.cv.cv.sections.Education %}
+        <tr style="height: 80px;">
+          <td class="p-1" style="vertical-align: middle;">
+            <strong>{{ entry.institution }}</strong>, {{ entry.location }}<br>
+            <span class="font-italic">{{ entry.studyType }}{% if entry.area %} in {{ entry.area }}{% endif %}</span>
+            {% if entry.highlights.size > 0 %}
+              <ul class="mt-1 mb-0" style="padding-left: 1.2em;">
+                {% for highlight in entry.highlights %}
+                  <li><small>{{ highlight }}</small></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </td>
+          <td class="p-1 pl-2 font-weight-bold text-end" style="white-space: nowrap; vertical-align: middle; width: 160px; padding-right: 40px !important;">
+            {{ entry.start_date | replace: "-", "." }} –
+            {{ entry.end_date | replace: "-", "." }}
+          </td>
+          {% if include.show_images and entry.image %}
+            <td class="p-0" style="vertical-align: middle; width: 80px; height: 80px;">
+              <img src="{{ entry.image | prepend: '/assets/img/' | relative_url }}" alt="{{ entry.institution }}" style="width: 80px; height: 80px; object-fit: cover;">
+            </td>
+          {% endif %}
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>

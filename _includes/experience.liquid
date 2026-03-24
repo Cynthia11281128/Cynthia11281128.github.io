@@ -1,0 +1,27 @@
+<div class="experience">
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless" style="table-layout: fixed;">
+      {% for entry in site.data.cv.cv.sections.Experience %}
+        <tr style="height: 80px;">
+          <td class="p-1" style="vertical-align: middle;">
+            <strong>{{ entry.position }}</strong><br>
+            {{ entry.company }}, {{ entry.location }}<br>
+            <span class="font-italic">{{ entry.summary }}</span>
+            {% if entry.supervisor %}
+              <br><span>Supervisor: {{ entry.supervisor }}</span>
+            {% endif %}
+          </td>
+          <td class="p-1 pl-2 font-weight-bold text-end" style="white-space: nowrap; vertical-align: middle; width: 160px; padding-right: 40px !important;">
+            {{ entry.start_date | replace: "-", "." }} –
+            {{ entry.end_date | replace: "-", "." }}
+          </td>
+          {% if include.show_images and entry.image %}
+            <td class="p-0" style="vertical-align: middle; width: 80px; height: 80px;">
+              <img src="{{ entry.image | prepend: '/assets/img/' | relative_url }}" alt="{{ entry.company }}" style="width: 80px; height: 80px; object-fit: cover;">
+            </td>
+          {% endif %}
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>

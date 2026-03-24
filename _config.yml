@@ -8,7 +8,7 @@ middle_name:
 last_name: Zhang
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Xinyuan Zhang's personal website.
+  Xinyuan Zhang - B.S. in AI at UCAS, Visiting Student at University of Oxford. Research in Vision-Language Navigation and Embodied AI.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -54,7 +54,7 @@ external_services:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -278,8 +278,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zhang]
+  first_name: [Xinyuan]
 
   style: apa
   locale: en

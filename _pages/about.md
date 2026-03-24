@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle:
+subtitle: 
 
 profile:
   align: right
@@ -10,8 +10,17 @@ profile:
   image_circular: false
   more_info:
 
-selected_papers: false
+selected_papers: true
 social: true
+
+education:
+  enabled: true
+
+experience:
+  enabled: true
+
+awards:
+  enabled: true
 
 announcements:
   enabled: false
@@ -24,4 +33,8 @@ latest_posts:
   limit: 3
 ---
 
-Welcome! I'm Xinyuan Zhang. This is my personal website.
+I am a third-year undergraduate in Artificial Intelligence at the <a href='https://www.ucas.ac.cn/'>University of Chinese Academy of Sciences</a>, currently a visiting student in the Department of Computer Science at the <a href='https://www.ox.ac.uk/'>University of Oxford</a>.
+
+I am currently a research assistant with the <a href='https://dynamic.robots.ox.ac.uk/'>Dynamic Robot Systems Group (DRS)</a> at the Oxford Robotics Institute (ORI), where I work on 3D reconstruction using geometric foundation models advised by <a href='https://ori.ox.ac.uk/people/maurice-fallon'>Prof. Maurice Fallon</a> . Previously, I worked at the <a href='http://english.ia.cas.cn/'>Institute of Automation, Chinese Academy of Sciences</a> on vision-language navigation for logistics scenarios, where I was fortunate to be advised by Prof. Fei-Yue Wang and Prof. Yonglin Tian.
+
+I am interested in robotic perception, especially in helping robots develop a deeper understanding of the physical world, and I am enthusiastically exploring this direction.

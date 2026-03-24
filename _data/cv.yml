@@ -1,14 +1,63 @@
 cv:
   name: Xinyuan Zhang
-  label:
-  email:
-  location:
+  label: B.S. Student in Artificial Intelligence
+  email: zhangxinyuan23@mails.ucas.ac.cn
+  location: Oxford, UK
   image: ""
-  summary:
+  summary: B.S. student in AI at UCAS, visiting student at the University of Oxford. Research interests in vision-language models and embodied AI.
 
-  social_networks: []
+  social_networks:
+    - network: GitHub
+      username: Cynthia11281128
 
   sections:
-    Education: []
-    Experience: []
-    Skills: []
+    Education:
+      - institution: University of Oxford
+        location: Oxford, UK
+        area: "Computer Science (Major), Mathematics (Minor)"
+        studyType: Visiting Student
+        image: oxford.png
+        start_date: 2025-10
+        end_date: 2026-06
+
+      - institution: University of Chinese Academy of Sciences (UCAS)
+        location: Beijing, China
+        area: Artificial Intelligence
+        studyType: Bachelor of Engineering
+        image: ucas.png
+        start_date: 2023-09
+        end_date: 2027-06
+        highlights:
+          - "GPA: 3.95/4.00, Rank: 3/85"
+
+    Experience:
+      - company: Dynamic Robot Systems Group (DRS-P)
+        position: Research Assistant
+        location: Oxford, UK
+        image: drs.png
+        start_date: 2025-12
+        end_date: Present
+        summary: "Building model reconstruction with goemetric foundation models."
+        supervisor: "Prof. Maurice Fallon"
+      
+      - company: Institute of Automation, Chinese Academy of Sciences (CASIA)
+        position: Research Intern
+        location: Beijing, China
+        image: casia.png
+        start_date: 2024-02
+        end_date: 2025-10
+        summary: "Vision-Language Navigation (VLN) in Intelligent Logistics."
+        supervisor: "Prof. Fei-Yue Wang"
+        highlights:
+          - "Integrated USV simulation into CARLA, enabling automated data collection and joint vehicle simulation"
+          - "Proposed LogisticsVLN, the first aerial VLN system for window-level terminal delivery scenarios"
+
+
+    Awards:
+      - title: Two Years of National Scholarship (Top 0.02% in China)
+        date: 2024, 2025
+        awarder: Ministry of Education, China
+
+      - title: First-Class Undergraduate Academic Scholarship (Top 5% in UCAS)
+        date: 2024-11
+        awarder: University of Chinese Academy of Sciences (UCAS)

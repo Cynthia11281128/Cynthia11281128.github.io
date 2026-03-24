@@ -1,0 +1,22 @@
+<div class="awards">
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless" style="table-layout: fixed;">
+      {% for entry in site.data.cv.cv.sections.Awards %}
+        <tr style="height: 80px;">
+          <td class="p-1" style="vertical-align: middle;">
+            <strong>{{ entry.title }}</strong><br>
+            <span class="font-italic">{{ entry.awarder }}</span>
+            {% if entry.summary %}
+              <ul class="mt-1 mb-0" style="padding-left: 1.2em;">
+                <li><small>{{ entry.summary }}</small></li>
+              </ul>
+            {% endif %}
+          </td>
+          <td class="p-1 pl-2 font-weight-bold text-end" style="white-space: nowrap; vertical-align: middle; width: 160px; padding-right: 40px !important;">
+            {{ entry.date }}
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
