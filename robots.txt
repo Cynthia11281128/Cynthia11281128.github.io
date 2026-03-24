@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Cynthia11281128.github.io/al-folio/sitemap.xml
+Sitemap: https://Cynthia11281128.github.io/sitemap.xml
