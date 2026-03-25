@@ -5,7 +5,7 @@
         <tr style="height: 80px;">
           <td class="p-1" style="vertical-align: middle;">
             <strong>{{ entry.position }}</strong><br>
-            {{ entry.company }}, {{ entry.location }}<br>
+            <strong>{{ entry.company }}</strong>, {{ entry.location }}<br>
             <span class="font-italic">{{ entry.summary }}</span>
             {% if entry.supervisor %}
               <br><span>Supervisor: {{ entry.supervisor }}</span>
