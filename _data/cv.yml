@@ -37,7 +37,7 @@ cv:
         image: drs.png
         start_date: 2025-12
         end_date: Present
-        summary: "Building model reconstruction with goemetric foundation models."
+        summary: "Indoor 3D reconstruction with geometric foundation models."
         supervisor: "Prof. Maurice Fallon"
       
       - company: Institute of Automation, Chinese Academy of Sciences (CASIA)
